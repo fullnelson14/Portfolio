@@ -1,8 +1,3 @@
-#Hello World!
+This is a test site for practicing HTML, CSS, and Javascript.
 
-My name is fullnelson14.
-
-
-I am learning to use Git and how to be a Web developer.
-
- 
+It's a work in progress. Started: 04/03/2018
