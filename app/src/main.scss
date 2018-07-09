@@ -1,0 +1,53 @@
+
+body {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+nav {
+	background-color: rgba(155, 0, 0, 0.8);
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin: 0;
+	
+	#logo {
+		float: left;
+		font-size: 1.5rem;
+		padding-left: 20px;
+
+	}
+
+	a {
+		padding: 0 15px 0 5px;
+		text-decoration: none;
+		display: inline-block;
+		height: 100;
+		font-size: 1.5rem;
+		color: black;
+		transition-duration: 750ms;
+
+	}
+	
+	a:hover {
+		background-color: #e0812f;
+		padding-bottom: 4px;
+		border-left: 2px solid black;
+
+
+	}
+
+}
+
+
+
+.content {
+	background-color: #84705f;
+
+}
+
+
+
+
+

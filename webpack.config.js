@@ -1,4 +1,3 @@
-//Hello world. Not sure what I am going to put here...
 const path = require('path');
 
 module.exports = {
@@ -10,10 +9,20 @@ module.exports = {
 	module: {
 		rules: [
 		{
+			test: /.scss$/,
+			use: [
+				'style-loader',
+				'css-loader',
+				'sass-loader'
+
+			]
+
+		},
+		{
 			test: /.css$/,
 			use: [
 				'style-loader',
-				'css-loader'
+				'css-loader'		
 			]
 		}
 		]
