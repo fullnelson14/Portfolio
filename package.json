@@ -1,33 +1,42 @@
 {
-  "name": "hotRod",
-  "version": "1.0.0",
-  "description": "This is a basic portfolio site.",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gulp html; webpack",
-    "deploy": "surge app/dist fast-acoustics.surge.sh"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fullnelson14/Portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fullnelson14/Portfolio/issues"
-  },
-  "homepage": "https://github.com/fullnelson14/Portfolio#readme",
-  "dependencies": {
-    "webpack": "^4.12.1",
-    "webpack-cli": "^3.0.8"
-  },
-  "devDependencies": {
-    "css-loader": "^0.28.11",
-    "gulp": "^3.9.1",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.3",
-    "style-loader": "^0.21.0"
-  }
+    "name": "hotRod",
+    "version": "1.0.1",
+    "description": "This is a basic portfolio site.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "gulp pug; webpack --watch",
+        "deploy": "surge app/dist fast-acoustics.surge.sh",
+        "gulp": "gulp pug"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fullnelson14/Portfolio.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fullnelson14/Portfolio/issues"
+    },
+    "homepage": "https://github.com/fullnelson14/Portfolio#readme",
+    "dependencies": {
+        "webpack": "^4.12.1",
+        "webpack-cli": "^3.0.8"
+    },
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "css-loader": "^0.28.11",
+        "gulp": "^3.9.1",
+        "gulp-pug": "^4.0.1",
+        "node-sass": "^4.9.0",
+        "on-build-webpack": "^0.1.0",
+        "pug": "^2.0.3",
+        "raw-loader": "^0.5.1",
+        "sass-loader": "^7.0.3",
+        "shelljs": "^0.8.2",
+        "style-loader": "^0.21.0"
+    }
 }
