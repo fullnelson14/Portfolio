@@ -106,7 +106,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pug_index_pug__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pug/index.pug */ \"./app/src/pug/index.pug\");\n/* harmony import */ var _pug_index_pug__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pug_index_pug__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _pug_test_pug__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pug/test.pug */ \"./app/src/pug/test.pug\");\n/* harmony import */ var _pug_test_pug__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pug_test_pug__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./app/src/js/watch.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pug_index_pug__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pug/index.pug */ \"./app/src/pug/index.pug\");\n/* harmony import */ var _pug_index_pug__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pug_index_pug__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _pug_components_header_pug__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pug/components/header.pug */ \"./app/src/pug/components/header.pug\");\n/* harmony import */ var _pug_components_header_pug__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pug_components_header_pug__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pug/components/footer.pug */ \"./app/src/pug/components/footer.pug\");\n/* harmony import */ var _pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n\n//# sourceURL=webpack:///./app/src/js/watch.js?");
+
+/***/ }),
+
+/***/ "./app/src/pug/components/footer.pug":
+/*!*******************************************!*\
+  !*** ./app/src/pug/components/footer.pug ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"footer\\n  p Created with electricity by fullnelson14\\nscript(src=\\\"main.js\\\")\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/components/footer.pug?");
+
+/***/ }),
+
+/***/ "./app/src/pug/components/header.pug":
+/*!*******************************************!*\
+  !*** ./app/src/pug/components/header.pug ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"header\\n  nav\\n    .flex-row\\n      a(href=\\\"index.html\\\") \\n        h1 meet Brad.\\n      .links\\n        a(href=\\\"#\\\") Portfolio\\n        a(href=\\\"#\\\") Projects\\n        a(href=\\\"#\\\") Info\\n\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/components/header.pug?");
 
 /***/ }),
 
@@ -117,18 +139,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pug
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"h1 Let's go son.\\r\\np time to rock and roll.\\r\\na(href=\\\"test.html\\\") Click\"\n\n//# sourceURL=webpack:///./app/src/pug/index.pug?");
-
-/***/ }),
-
-/***/ "./app/src/pug/test.pug":
-/*!******************************!*\
-  !*** ./app/src/pug/test.pug ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \"h1 Hello World\\r\\np I wish I could get this to work.\\r\\np I think it will work now.\\r\\np maybe not...\\r\\na(href=\\\"index.html\\\") Link back to home.\\r\\n\\r\\nh1 BOOYAH THIS THING WORKS\"\n\n//# sourceURL=webpack:///./app/src/pug/test.pug?");
+eval("module.exports = \"html\\r\\n  head\\r\\n    title meet Brad.\\r\\n  body\\r\\n    include components/header.pug\\r\\n    main\\r\\n      include components/portfolio.pug\\r\\n      include components/projects.pug\\r\\n      include components/info.pug\\r\\n      \\r\\n    \\r\\n\\r\\n    include components/footer.pug\\r\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/index.pug?");
 
 /***/ }),
 
@@ -150,7 +161,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\n  background-color: aqua; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./app/src/scss/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\n  margin: 0; }\\n  body header {\\n    position: relative; }\\n    body header nav {\\n      background-color: rebeccapurple;\\n      position: sticky;\\n      width: 100%;\\n      border-bottom: 2px solid black; }\\n      body header nav a {\\n        text-decoration: none; }\\n      body header nav .flex-row {\\n        display: flex;\\n        justify-content: space-between; }\\n        body header nav .flex-row h1 {\\n          font-size: 25px;\\n          margin: 5px;\\n          color: black; }\\n        body header nav .flex-row .links {\\n          display: flex; }\\n          body header nav .flex-row .links a {\\n            padding: 10px;\\n            color: black; }\\n  body main {\\n    margin-top: 50px; }\\n  body footer {\\n    border-top: 2px solid black;\\n    background-color: purple; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./app/src/scss/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 

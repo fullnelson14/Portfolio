@@ -1,2 +1,4 @@
 import "../pug/index.pug";
-import "../pug/test.pug";
+
+import "../pug/components/header.pug";
+import "../pug/components/footer.pug";
