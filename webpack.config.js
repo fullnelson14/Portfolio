@@ -27,6 +27,10 @@ module.exports = {
         ]
       },
       {
+        test: /.jpg$/,
+        use: ["file-loader"]
+      },
+      {
         test: /.pug$/,
         use: ["raw-loader"]
       }
