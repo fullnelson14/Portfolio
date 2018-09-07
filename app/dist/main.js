@@ -117,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pug
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"footer\\n  p Created with electricity by fullnelson14\\nscript(src=\\\"main.js\\\")\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/components/footer.pug?");
+eval("module.exports = \"footer\\n  \\nscript(src=\\\"main.js\\\")\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/components/footer.pug?");
 
 /***/ }),
 
@@ -128,7 +128,7 @@ eval("module.exports = \"footer\\n  p Created with electricity by fullnelson14\\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"header\\n  nav\\n    .flex-row\\n      a(href=\\\"index.html\\\") \\n        h1 meet Brad.\\n      .links\\n        a(href=\\\"#\\\") Portfolio\\n        a(href=\\\"#\\\") Projects\\n        a(href=\\\"#\\\") Info\\n\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/components/header.pug?");
+eval("module.exports = \"header\\n  nav\\n    .flex-row\\n      a(href=\\\"index.html\\\") \\n        h1 meet Brad.\\n      \\n\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/components/header.pug?");
 
 /***/ }),
 
@@ -172,7 +172,7 @@ eval("module.exports = \".projects\\r\\n  h4 Projects\\r\\n  p Projects that I a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"html\\r\\n  head\\r\\n    title meet Brad.\\r\\n  body\\r\\n    include components/header.pug\\r\\n    main\\r\\n      include components/portfolio.pug\\r\\n      include components/projects.pug\\r\\n      include components/info.pug\\r\\n      \\r\\n    \\r\\n\\r\\n    include components/footer.pug\\r\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/index.pug?");
+eval("module.exports = \"html\\r\\n  head\\r\\n    title meet Brad.\\r\\n  body\\r\\n    include components/header.pug\\r\\n    main\\r\\n      .scroll-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n\\r\\n      \\r\\n    \\r\\n\\r\\n    include components/footer.pug\\r\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/index.pug?");
 
 /***/ }),
 
@@ -194,7 +194,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"p,\\nh1,\\nh2,\\nh3,\\nh4,\\nh5,\\nh6 {\\n  margin: 0; }\\n\\nbody {\\n  margin: 0; }\\n  body header {\\n    position: relative; }\\n    body header nav {\\n      background-color: rebeccapurple;\\n      position: sticky;\\n      width: 100%;\\n      border-bottom: 2px solid black; }\\n      body header nav a {\\n        text-decoration: none; }\\n      body header nav .flex-row {\\n        display: flex;\\n        justify-content: space-between; }\\n        body header nav .flex-row h1 {\\n          font-size: 25px;\\n          margin: 5px;\\n          color: black; }\\n        body header nav .flex-row .links {\\n          display: flex; }\\n          body header nav .flex-row .links a {\\n            padding: 10px;\\n            color: black;\\n            transition-duration: 400ms; }\\n            body header nav .flex-row .links a:hover {\\n              color: red; }\\n  body main .portfolio {\\n    min-height: 300px;\\n    background-color: grey;\\n    padding: 20px 0; }\\n  body main .projects {\\n    min-height: 300px;\\n    background-color: lemonchiffon;\\n    padding: 20px 0; }\\n  body main h4 {\\n    margin-left: 30px; }\\n  body main p {\\n    margin-left: 40px; }\\n  body main .display-row {\\n    display: flex; }\\n  body footer {\\n    border-top: 2px solid black;\\n    background-color: purple; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./app/src/scss/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"p,\\nh1,\\nh2,\\nh3,\\nh4,\\nh5,\\nh6 {\\n  margin: 0; }\\n\\nbody {\\n  margin: 0;\\n  overflow: hidden; }\\n  body header {\\n    position: relative; }\\n    body header nav {\\n      background-color: transparent;\\n      position: fixed;\\n      width: 100%; }\\n      body header nav a {\\n        text-decoration: none; }\\n      body header nav .flex-row {\\n        display: flex;\\n        justify-content: space-between; }\\n        body header nav .flex-row h1 {\\n          font-size: 25px;\\n          margin: 5px;\\n          color: black; }\\n        body header nav .flex-row .links {\\n          display: flex; }\\n          body header nav .flex-row .links a {\\n            padding: 10px;\\n            color: black;\\n            transition-duration: 400ms; }\\n            body header nav .flex-row .links a:hover {\\n              color: red; }\\n  body main {\\n    min-height: 100vh;\\n    background-color: lightgray; }\\n    body main .scroll-box {\\n      background-color: gray;\\n      position: absolute;\\n      height: 104vh;\\n      border: 2px solid black;\\n      width: 25%;\\n      right: -20px;\\n      overflow: scroll; }\\n      body main .scroll-box .project-box {\\n        background-color: lightslategray;\\n        margin: 10px;\\n        height: 200px;\\n        border: 2px solid black;\\n        border-radius: 3px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./app/src/scss/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
