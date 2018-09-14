@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pug_index_pug__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pug/index.pug */ \"./app/src/pug/index.pug\");\n/* harmony import */ var _pug_index_pug__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pug_index_pug__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _pug_components_header_pug__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pug/components/header.pug */ \"./app/src/pug/components/header.pug\");\n/* harmony import */ var _pug_components_header_pug__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pug_components_header_pug__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pug/components/footer.pug */ \"./app/src/pug/components/footer.pug\");\n/* harmony import */ var _pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _pug_components_info_pug__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pug/components/info.pug */ \"./app/src/pug/components/info.pug\");\n/* harmony import */ var _pug_components_info_pug__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_pug_components_info_pug__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _pug_components_projects_pug__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pug/components/projects.pug */ \"./app/src/pug/components/projects.pug\");\n/* harmony import */ var _pug_components_projects_pug__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_pug_components_projects_pug__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _pug_components_portfolio_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pug/components/portfolio.pug */ \"./app/src/pug/components/portfolio.pug\");\n/* harmony import */ var _pug_components_portfolio_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pug_components_portfolio_pug__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./app/src/js/watch.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pug_index_pug__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pug/index.pug */ \"./app/src/pug/index.pug\");\n/* harmony import */ var _pug_index_pug__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_pug_index_pug__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _pug_projects_pug__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pug/projects.pug */ \"./app/src/pug/projects.pug\");\n/* harmony import */ var _pug_projects_pug__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pug_projects_pug__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _pug_portfolio_pug__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pug/portfolio.pug */ \"./app/src/pug/portfolio.pug\");\n/* harmony import */ var _pug_portfolio_pug__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pug_portfolio_pug__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _pug_info_pug__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pug/info.pug */ \"./app/src/pug/info.pug\");\n/* harmony import */ var _pug_info_pug__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_pug_info_pug__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _pug_components_header_pug__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pug/components/header.pug */ \"./app/src/pug/components/header.pug\");\n/* harmony import */ var _pug_components_header_pug__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_pug_components_header_pug__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pug/components/footer.pug */ \"./app/src/pug/components/footer.pug\");\n/* harmony import */ var _pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pug_components_footer_pug__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./app/src/js/watch.js?");
 
 /***/ }),
 
@@ -132,39 +132,6 @@ eval("module.exports = \"header\\n  nav\\n    .flex-row\\n      a(href=\\\"index
 
 /***/ }),
 
-/***/ "./app/src/pug/components/info.pug":
-/*!*****************************************!*\
-  !*** ./app/src/pug/components/info.pug ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \"\"\n\n//# sourceURL=webpack:///./app/src/pug/components/info.pug?");
-
-/***/ }),
-
-/***/ "./app/src/pug/components/portfolio.pug":
-/*!**********************************************!*\
-  !*** ./app/src/pug/components/portfolio.pug ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \".portfolio    \\r\\n  h4 Portfolio\\r\\n  p Products that I have contributed to\\r\\n  .display-row\\r\\n    .project\\r\\n      img(src=\\\"./../assets/images/placeholder.jpg\\\", alt=\\\"\\\")\\r\\n      h5 Description title\\r\\n      p This is the desciption of the project that I worked on\\r\\n    .project\\r\\n      img(src=\\\"./../assets/images/placeholder.jpg\\\", alt=\\\"\\\")\\r\\n      h5 Description title\\r\\n      p This is the desciption of the project that I worked on\\r\\n    .project\\r\\n      img(src=\\\"./../assets/images/placeholder.jpg\\\", alt=\\\"\\\")\\r\\n      h5 Description title\\r\\n      p This is the desciption of the project that I worked on\\r\\n    .project\\r\\n      img(src=\\\"./../assets/images/placeholder.jpg\\\", alt=\\\"\\\")\\r\\n      h5 Description title\\r\\n      p This is the desciption of the project that I worked on\"\n\n//# sourceURL=webpack:///./app/src/pug/components/portfolio.pug?");
-
-/***/ }),
-
-/***/ "./app/src/pug/components/projects.pug":
-/*!*********************************************!*\
-  !*** ./app/src/pug/components/projects.pug ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = \".projects\\r\\n  h4 Projects\\r\\n  p Projects that I am currently working on // experimental things\\r\\n  .display-row\\r\\n    .project\\r\\n      img(src=\\\"./../assets/images/placeholder.jpg\\\", alt=\\\"\\\")\\r\\n      h5 Description title\\r\\n      p This is the desciption of the project that I worked on\\r\\n    .project\\r\\n      img(src=\\\"./../assets/images/placeholder.jpg\\\", alt=\\\"\\\")\\r\\n      h5 Description title\\r\\n      p This is the desciption of the project that I worked on\\r\\n    .project\\r\\n      img(src=\\\"./../assets/images/placeholder.jpg\\\", alt=\\\"\\\")\\r\\n      h5 Description title\\r\\n      p This is the desciption of the project that I worked on\\r\\n    .project\\r\\n      img(src=\\\"./../assets/images/placeholder.jpg\\\", alt=\\\"\\\")\\r\\n      h5 Description title\\r\\n      p This is the desciption of the project that I worked on\"\n\n//# sourceURL=webpack:///./app/src/pug/components/projects.pug?");
-
-/***/ }),
-
 /***/ "./app/src/pug/index.pug":
 /*!*******************************!*\
   !*** ./app/src/pug/index.pug ***!
@@ -172,7 +139,40 @@ eval("module.exports = \".projects\\r\\n  h4 Projects\\r\\n  p Projects that I a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"html\\r\\n  head\\r\\n    title meet Brad.\\r\\n  body\\r\\n    include components/header.pug\\r\\n    main\\r\\n      .scroll-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n        .project-box\\r\\n\\r\\n      \\r\\n    \\r\\n\\r\\n    include components/footer.pug\\r\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/index.pug?");
+eval("module.exports = \"html\\r\\n  head\\r\\n    title meet Brad.\\r\\n  body\\r\\n    include components/header.pug\\r\\n    main\\r\\n      .scroll-box\\r\\n        .project-box\\r\\n          img(src=\\\"../src/assets/images/placeholder.jpg\\\", alt=\\\"PLACEHOLD\\\")\\r\\n          .overlay\\r\\n            a(href=\\\"portfolio.html\\\") \\r\\n              h1 Portfolio\\r\\n              p The stuff I've done\\r\\n        .project-box\\r\\n          img(src=\\\"../src/assets/images/placeholder.jpg\\\", alt=\\\"PLACEHOLD\\\")\\r\\n          .overlay\\r\\n            a(href=\\\"projects.html\\\") \\r\\n              h1 Projects\\r\\n              p The stuff I'm working on\\r\\n        .project-box\\r\\n          img(src=\\\"../src/assets/images/placeholder.jpg\\\", alt=\\\"PLACEHOLD\\\")\\r\\n          .overlay\\r\\n            a(href=\\\"https://www.linkedin.com/in/brad-j-nelson\\\" target=\\\"_blank\\\") \\r\\n              h1 LinkedIn\\r\\n              p Time to show off.\\r\\n        .project-box\\r\\n          img(src=\\\"../src/assets/images/placeholder.jpg\\\", alt=\\\"PLACEHOLD\\\")\\r\\n          .overlay\\r\\n            a(href=\\\"https://codepen.io/fullnelson14/\\\" target=\\\"_blank\\\") \\r\\n              h1 CodePen\\r\\n              p The workshop...\\r\\n        .project-box\\r\\n          img(src=\\\"../src/assets/images/placeholder.jpg\\\", alt=\\\"PLACEHOLD\\\")\\r\\n          .overlay\\r\\n            a(href=\\\"https://github.com/fullnelson14\\\" target=\\\"_blank\\\") \\r\\n              h1 GitHub\\r\\n              p Let's collaborate\\r\\n        .project-box\\r\\n          img(src=\\\"../src/assets/images/placeholder.jpg\\\", alt=\\\"PLACEHOLD\\\")\\r\\n          .overlay\\r\\n            a(href=\\\"info.html\\\") \\r\\n              h1 Info\\r\\n              p First name, last name, birthday, SSN, blah blah blah\\r\\n        \\r\\n\\r\\n      \\r\\n    \\r\\n\\r\\n    include components/footer.pug\\r\\n\"\n\n//# sourceURL=webpack:///./app/src/pug/index.pug?");
+
+/***/ }),
+
+/***/ "./app/src/pug/info.pug":
+/*!******************************!*\
+  !*** ./app/src/pug/info.pug ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"html\\r\\n  head \\r\\n    title Info //BN\\r\\n\\r\\n  body\\r\\n    include components/header.pug\\r\\n    h1 Hire me if you dare.\\r\\n    a(href=\\\"index.html\\\") Return to home\"\n\n//# sourceURL=webpack:///./app/src/pug/info.pug?");
+
+/***/ }),
+
+/***/ "./app/src/pug/portfolio.pug":
+/*!***********************************!*\
+  !*** ./app/src/pug/portfolio.pug ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"html\\r\\n  head \\r\\n    title Portfolio //BN\\r\\n\\r\\n  body\\r\\n    include components/header.pug\\r\\n    h1 Get the goods sista.\\r\\n    a(href=\\\"index.html\\\") Return to home\"\n\n//# sourceURL=webpack:///./app/src/pug/portfolio.pug?");
+
+/***/ }),
+
+/***/ "./app/src/pug/projects.pug":
+/*!**********************************!*\
+  !*** ./app/src/pug/projects.pug ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"html\\r\\n  head\\r\\n    title Projects //BN\\r\\n  body\\r\\n    include components/header.pug\\r\\n    h1 Hello world yo.\\r\\n    a(href=\\\"index.html\\\") Return to home\"\n\n//# sourceURL=webpack:///./app/src/pug/projects.pug?");
 
 /***/ }),
 
@@ -194,7 +194,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"p,\\nh1,\\nh2,\\nh3,\\nh4,\\nh5,\\nh6 {\\n  margin: 0; }\\n\\nbody {\\n  margin: 0;\\n  overflow: hidden; }\\n  body header {\\n    position: relative; }\\n    body header nav {\\n      background-color: transparent;\\n      position: fixed;\\n      width: 100%; }\\n      body header nav a {\\n        text-decoration: none; }\\n      body header nav .flex-row {\\n        display: flex;\\n        justify-content: space-between; }\\n        body header nav .flex-row h1 {\\n          font-size: 25px;\\n          margin: 5px;\\n          color: black; }\\n        body header nav .flex-row .links {\\n          display: flex; }\\n          body header nav .flex-row .links a {\\n            padding: 10px;\\n            color: black;\\n            transition-duration: 400ms; }\\n            body header nav .flex-row .links a:hover {\\n              color: red; }\\n  body main {\\n    min-height: 100vh;\\n    background-color: lightgray; }\\n    body main .scroll-box {\\n      background-color: gray;\\n      position: absolute;\\n      height: 104vh;\\n      border: 2px solid black;\\n      width: 25%;\\n      right: -20px;\\n      overflow: scroll; }\\n      body main .scroll-box .project-box {\\n        background-color: lightslategray;\\n        margin: 10px;\\n        height: 200px;\\n        border: 2px solid black;\\n        border-radius: 3px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./app/src/scss/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"p,\\nh1,\\nh2,\\nh3,\\nh4,\\nh5,\\nh6 {\\n  margin: 0; }\\n\\nbody {\\n  margin: 0;\\n  overflow: hidden; }\\n  body header {\\n    position: relative; }\\n    body header nav {\\n      background-color: transparent;\\n      position: fixed;\\n      width: 100%; }\\n      body header nav a {\\n        text-decoration: none; }\\n      body header nav .flex-row {\\n        display: flex;\\n        justify-content: space-between; }\\n        body header nav .flex-row h1 {\\n          font-size: 25px;\\n          margin: 5px;\\n          color: black; }\\n        body header nav .flex-row .links {\\n          display: flex; }\\n          body header nav .flex-row .links a {\\n            padding: 10px;\\n            color: black;\\n            transition-duration: 400ms; }\\n            body header nav .flex-row .links a:hover {\\n              color: red; }\\n  body main {\\n    min-height: 100vh;\\n    background-color: lightgray; }\\n    body main .scroll-box {\\n      background-color: gray;\\n      position: absolute;\\n      height: 104vh;\\n      width: 30%;\\n      right: -20px;\\n      overflow: scroll; }\\n      body main .scroll-box .project-box {\\n        background-color: lightslategray;\\n        margin: 10px;\\n        height: 200px;\\n        border: 2px solid black;\\n        border-radius: 3px;\\n        position: relative;\\n        overflow: hidden; }\\n        body main .scroll-box .project-box img {\\n          width: 100%; }\\n        body main .scroll-box .project-box .overlay {\\n          position: absolute;\\n          top: 0;\\n          left: 0;\\n          width: 100%;\\n          height: 100%;\\n          transition-duration: 400ms; }\\n          body main .scroll-box .project-box .overlay a {\\n            text-decoration: none; }\\n          body main .scroll-box .project-box .overlay h1,\\n          body main .scroll-box .project-box .overlay p {\\n            color: transparent;\\n            transition-duration: 400ms; }\\n        body main .scroll-box .project-box .overlay:hover {\\n          background-color: #8080809e; }\\n          body main .scroll-box .project-box .overlay:hover h1,\\n          body main .scroll-box .project-box .overlay:hover p {\\n            color: white; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./app/src/scss/main.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
