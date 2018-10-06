@@ -4,4 +4,5 @@
 - get a better design... the block-linear one sucks
 
 - Landing page working quote "Stuff that moves. Stuff that works. Stuff that looks good." "these are a few of my favorite things" maybe substitute 'stuff' with 'things'.
-- gears logo or animation.
+- gears logo or animation. Make the gears run slowly while not hovered over them and run a little faster when you are hovering.
+
