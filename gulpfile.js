@@ -11,4 +11,9 @@ gulp.task("pug", function buildHTML() {
     .pipe(pug())
     .pipe(gulp.dest("./app/dist"));
 });
-gulp.task("default", ["pug"]);
+
+gulp.task("assets", function moveImagesFolder() {
+  return gulp.src("./app/src/assets/**/*").pipe(gulp.dest(`./app/dist`));
+});
+
+gulp.task("default", ["pug", "assets"]);
