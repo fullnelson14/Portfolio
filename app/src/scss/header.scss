@@ -1,0 +1,33 @@
+header {
+  position: relative;
+  nav {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+    }
+    .flex-row {
+      display: flex;
+      justify-content: space-between;
+      h1 {
+        font-size: 25px;
+        margin: 5px;
+        color: black;
+      }
+      .links {
+        display: flex;
+
+        a {
+          padding: 10px;
+          color: black;
+          transition-duration: 400ms;
+          &:hover {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}

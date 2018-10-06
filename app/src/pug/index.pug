@@ -1,46 +1,51 @@
 html
   head
     title meet Brad.
+    include components/head.pug
   body
     include components/header.pug
     main
       .scroll-box
         .project-box
-          img(src="../src/assets/images/placeholder.jpg", alt="PLACEHOLD")
-          .overlay
-            a(href="portfolio.html") 
+          img(src="images/placeholder.jpg", alt="PLACEHOLD")
+
+          a(href="portfolio.html") 
+            .overlay
               h1 Portfolio
               p The stuff I've done
         .project-box
-          img(src="../src/assets/images/placeholder.jpg", alt="PLACEHOLD")
-          .overlay
-            a(href="projects.html") 
+          img(src="images/placeholder.jpg", alt="PLACEHOLD")
+          a(href="projects.html") 
+            .overlay
               h1 Projects
               p The stuff I'm working on
         .project-box
-          img(src="../src/assets/images/placeholder.jpg", alt="PLACEHOLD")
-          .overlay
-            a(href="https://www.linkedin.com/in/brad-j-nelson" target="_blank") 
+          img(src="images/linkedin.PNG", alt="Linked in profile")
+          a(href="https://www.linkedin.com/in/brad-j-nelson" target="_blank") 
+            .overlay
+              i(class="fab fa-linkedin")
               h1 LinkedIn
-              p Time to show off.
+              p Time to show off. 
         .project-box
-          img(src="../src/assets/images/placeholder.jpg", alt="PLACEHOLD")
-          .overlay
-            a(href="https://codepen.io/fullnelson14/" target="_blank") 
+          img(src="images/codepen.PNG", alt="Codepen profile")
+          a(href="https://codepen.io/fullnelson14/" target="_blank") 
+            .overlay
+              i(class="fab fa-codepen")
               h1 CodePen
               p The workshop...
         .project-box
-          img(src="../src/assets/images/placeholder.jpg", alt="PLACEHOLD")
-          .overlay
-            a(href="https://github.com/fullnelson14" target="_blank") 
+          img(src="images/github.PNG", alt="Github profile")
+          a(href="https://github.com/fullnelson14" target="_blank") 
+            .overlay
+              i(class="fab fa-github")
               h1 GitHub
               p Let's collaborate
         .project-box
-          img(src="../src/assets/images/placeholder.jpg", alt="PLACEHOLD")
-          .overlay
-            a(href="info.html") 
+          img(src="images/placeholder.jpg", alt="PLACEHOLD")
+          a(href="info.html") 
+            .overlay
               h1 Info
-              p First name, last name, birthday, SSN, blah blah blah
+              p On a first-name basis 
         
 
       
