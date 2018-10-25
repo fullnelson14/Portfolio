@@ -50,11 +50,15 @@ body {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          i {
+            font-size: 40px;
+          }
           a {
             text-decoration: none;
           }
           h1,
-          p {
+          p,
+          i {
             color: transparent;
             transition-duration: 400ms;
           }
@@ -63,7 +67,8 @@ body {
         .overlay:hover {
           background-color: #8080809e;
           h1,
-          p {
+          p,
+          i {
             color: white;
           }
         }
