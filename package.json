@@ -5,9 +5,10 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gulp; webpack --watch",
+    "dev": "webpack --watch",
     "deploy": "surge app/dist fast-acoustics.surge.sh",
-    "gulp": "gulp pug"
+    "gulp": "gulp pug",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "raw-loader": "^0.5.1",
     "sass-loader": "^7.0.3",
     "shelljs": "^0.8.2",
-    "style-loader": "^0.21.0"
+    "style-loader": "^0.21.0",
+    "webpack-dev-server": "^3.1.10"
   }
 }

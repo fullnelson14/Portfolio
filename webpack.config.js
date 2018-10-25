@@ -9,6 +9,9 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "app/dist")
   },
+  devServer: {
+    contentBase: path.join(__dirname, "app/dist")
+  },
   module: {
     rules: [
       {
